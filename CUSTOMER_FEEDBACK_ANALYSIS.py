@@ -21,34 +21,23 @@ PUNCTUATION = "!\"#$%&()*+,-./:;<=>?@[\\]^_`{|}~"
 
 # 15 sample messages: tuples of (message, expected sentiment)
 SAMPLES = [
-    ("I absolutely love this phone! The battery is great and delivery "
-     "was fast. Highly recommend.", "Positive"),
-    ("Terrible experience. The screen arrived broken and support was "
-     "rude. I want a refund.", "Negative"),
+    ("I absolutely love this phone! The battery is great and delivery was fast. Highly recommend.", "Positive"),
+    ("Terrible experience. The screen arrived broken and support was rude. I want a refund.", "Negative"),
     ("The product is not good. It stopped working after two days.",
      "Negative"),
     ("Package arrived on Tuesday. Box was medium sized.", "Neutral"),
-    ("Please call me on 9876543210 about my order, the delivery was "
-     "late. My email is riya.sharma@example.com", "Negative"),
-    ("I paid with card 4111111111111234 but the payment failed twice. "
-     "Very disappointed, please refund.", "Negative"),
+    ("Please call me on 9876543210 about my order, the delivery was late.My email is riya.sharma@example.com", "Negative"),
+    ("I paid with card 4111111111111234 but the payment failed twice.Very disappointed, please refund.", "Negative"),
     ("Great value, not bad at all, the sound is excellent!", "Positive"),
-    ("CLICK HERE NOW!!!! You are a WINNER. CLAIM YOUR PRIZE at "
-     "http://win-big.example", "Neutral"),
-    ("Soooooo happy with the service!!! Support was helpful and "
-     "friendly.", "Positive"),
-    ("The app is slow and keeps crashing. Not helpful support either, "
-     "never solved my problem.", "Negative"),
+    ("CLICK HERE NOW!!!! You are a WINNER. CLAIM YOUR PRIZE at http://win-big.example", "Neutral"),
+    ("Soooooo happy with the service!!! Support was helpful and friendly.", "Positive"),
+    ("The app is slow and keeps crashing. Not helpful support either,never solved my problem.", "Negative"),
     ("Okay product. Some features are good but the battery is bad.",
      "Neutral"),
-    ("Contact me at amit_k99@shop-mail.example or 9123456780 for the "
-     "invoice. Thanks, great service.", "Positive"),
-    ("I don't like the colour, it isn't comfortable and the strap is "
-     "flimsy. Wasn't happy.", "Negative"),
-    ("Card 5500000000000004 was charged once. Smooth checkout and "
-     "quick delivery!", "Positive"),
-    ("Customer care is useless!!!!! Worst service ever, call me on "
-     "9012345678", "Negative"),
+    ("Contact me at amit_k99@shop-mail.example or 9123456780 for the invoice. Thanks, great service.", "Positive"),
+    ("I don't like the colour, it isn't comfortable and the strap is flimsy. Wasn't happy.", "Negative"),
+    ("Card 5500000000000004 was charged once. Smooth checkout and quick delivery!", "Positive"),
+    ("Customer care is useless!!!!! Worst service ever, call me on 9012345678", "Negative"),
 ]
 # Input: type your own message, or press Enter to run the samples
 while True:
