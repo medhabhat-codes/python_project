@@ -1,5 +1,4 @@
 """Customer Feedback Analyzer (Sentiment and Data Masking).
-
 For each message the program:
   1. finds and masks e-mails, phone numbers and card numbers
   2. cleans the text and splits it into words
@@ -7,7 +6,6 @@ For each message the program:
   4. counts keywords and shows the top five
   5. checks for spam
 """
-
 # Word lists (sets)
 POSITIVE = {"good", "great", "excellent", "love", "like", "happy",
             "fast", "quick", "helpful", "smooth", "recommend",
@@ -52,7 +50,6 @@ SAMPLES = [
     ("Customer care is useless!!!!! Worst service ever, call me on "
      "9012345678", "Negative"),
 ]
-
 # Input: type your own message, or press Enter to run the samples
 while True:
     typed = input("Type a message (or press Enter for the 15 samples): ")
