@@ -7,10 +7,6 @@ Steps for every message:
   4. Count keywords and show the top five
   5. Check for spam
 
-Uses only Unit II topics: loops, strings and slicing, lists, tuples,
-dictionaries and sets. All data is made-up sample data.
-"""
-
 # ---------------------------------------------------------------
 # Word lists (sets)
 # ---------------------------------------------------------------
