@@ -6,9 +6,6 @@ For each message the program:
   3. scores the sentiment (with negation like "not good")
   4. counts keywords and shows the top five
   5. checks for spam
-
-Only Unit II topics are used: loops, strings, slicing, lists, tuples,
-dictionaries and sets. All data is made-up sample data.
 """
 
 # Word lists (sets)
